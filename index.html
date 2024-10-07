@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virinchi M Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-pic">
+                <img src="imageee.jpg" alt="Profile Picture">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showSection('home')"><img src="home_icon.png" alt="Home"></a></li>
+                    <li><a href="#" onclick="showSection('about')"><img src="profile_icon.png" alt="Profile"></a></li>
+                    <li><a href="#" onclick="showSection('projects')"><img src="folder-icon.png" alt="Projects"></a></li>
+                    <li><a href="#" onclick="showSection('tools')"><img src="tools-icon.png" alt="Tools"></a></li>
+                    <li><a href="#" onclick="showSection('contact')"><img src="mail-icon.png" alt="Tools"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <div id="home" class="section">
+                <h1>Virinchi M</h1>
+                <h2>Developer</h2>
+                <div class="social-links">
+                    <a href="https://github.com/Virinchi-3009" target="_blank"><img src="github_icon.jpeg" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/virinchim" target="_blank"><img src="linkedin_icon.jpeg" alt="LinkedIn"></a>
+                    <a href="https://x.com/thesensxo?t=XQT0Gr9VeyCK6Zv0Jbbslg&s=08" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <div id="about" class="section" style="display: none;">
+                <h2>About</h2>
+                <div class="about-container">
+                    <p>
+                        Experienced AI Engineer & Full Stack Developer, contributing to the development of cutting-edge projects, specializing in computer vision,TensorFlow applications. I take care of crafting clean and efficient code for various components of the machine learning pipeline, particularly focusing on object detection and image classification tasks. Also evaluating model performance using key metrics like accuracy and precision, ensuring optimal computational efficiency. Instrumental in integrating ML models into production systems, emphasizing seamless deployment and scalability while optimizing for inference speed and memory efficiency. Recognized for identifying and addressing performance bottlenecks, enhancing system speed and resource utilization.
+                    </p>
+                    <p>
+                        Additionally, contributed to the creation of App for detecting Skin Cancer, identification in images using pre-trained models. Proficient in AI-based frameworks, machine learning algorithms, clean code writing, and effective integration and deployment practices, with a strong emphasis on business logic development and software optimization.
+                    </p>
+                    <p>
+                        Holds a Bachelor's degree in Information & Technology and proficient in Python, C , SQL, and various libraries/tools. Skilled in data wrangling, exploratory data analysis, feature engineering, machine learning techniques, and model deployment.
+                    </p>
+                </div>
+            </div>
+            <div id="projects" class="section" style="display: none;">
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Skin Cancer Detection App</h3>
+                        <p>An ML-based framework and Android Application methodology for Skin Cancer Dectection</p>
+                        <a href="https://skincancer-q8cd.onrender.com/">Try it!</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Social Media Automation</h3>
+                        <p>Web application for social media management,increasing user engagement by enabling automated multi-platform posting,saving user time upto 5 hours weekly</p>
+                        <a href="https://github.com/Virinchi-3009/Social-Media-Automation">Learn More</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Auto Proctoring</h3>
+                        <p>Integrated OpenCV for real-time motion detection enhancing the security of online exams,reducing incidents of cheating by 90%</p>
+                        <a href="https://github.com/Virinchi-3009/Auto-Proctoring">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div id="tools" class="section" style="display: none;">
+                <h2>Technical Stack</h2>
+                <div class="technical-stack">
+                    <div class="stack-item">
+                        <img src="python.png" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="c_logo.png" alt="C">
+                        <p>C</p>
+
+                    </div>
+                    <div class="stack-item">
+                        <img src="andriod_studio.png" alt="Android Studio">
+                        <p>Android Studio</p>
+                        
+                    </div>
+                    <div class="stack-item">
+                        <img src="java.png" alt="Java">
+                        <p>Java</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="htmllll.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="cssss.png" alt="CSS">
+                        <p>CSS</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="js.png" alt="Java Script">
+                        <p>Java Script</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="tensorflow.png" alt="TensorFlow">
+                        <p>TensorFlow</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="pandas.jpeg" alt="Pandas">
+                        <p>Pandas</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="numpy.png" alt="NumPy">
+                        <p>Numpy</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="sklearn.png" alt="Scikit-Learn">
+                        <p>Scikit-Learn</p>
+                    </div>
+                    <div class="stack-item">
+                        <img src="mysqlll.png" alt="MySql">
+                        <p>MySql</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="section" style="display: none;">
+                <h2>Contact</h2>
+                <div class="contact-container">
+                    <div class="contact-row">
+                        <!-- GitHub -->
+                        <div class="contact-item">
+                            <img src="github1.jpeg" alt="GitHub" class="contact-icon">
+                            <a href="https://github.com/Virinchi-3009" class="contact-link">github.com/Virinchi-3009</a>
+                        </div>
+                
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <img src="email.jpeg" alt="Email" class="contact-icon">
+                            <a href="mailto:virinchimummudi@gmail.com" class="contact-link">virinchimummudi@gmail.com</a>
+                        </div>
+                    </div>
+                
+                    <div class="contact-row">
+                        <!-- LinkedIn -->
+                        <div class="contact-item">
+                            <img src="Linkedin.jpg" alt="LinkedIn" class="contact-icon">
+                            <a href="https://www.linkedin.com/in/virinchi-m" class="contact-link">linkedin.com/in/virinchi-m</a>
+                        </div>
+                
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <img src="phone.jpeg" alt="Phone" class="contact-icon">
+                            <a href="tel:+91 93473 64006" class="contact-link">9347364006</a>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="resume-section" align="center">
+                    <p>Download my Resume here</p>
+                    <button id="download-resume" class="resume-btn">Download Resume</button>
+                </div>
+                <footer class="footer" align="center">
+                    <p>&copy; 2024 Virinchi M. All Rights Reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
